@@ -2,23 +2,21 @@ package tk4;
 import java.util.Scanner;
 public class TugasKelompok4 {
     static Scanner in = new Scanner(System.in);
-    /**
-     * @param args the command line arguments
-     */
-    int iMin,iMax;
     static int[] lstData=new int[5];
     public static void main(String[] args) {
         int iPilih=0;
         while (iPilih!=6){
-            System.out.print ( "\nSelamat Datang di Program Simulasi \n"
-                    + "Menu:\n"
-                    + "1. Random Data \n"
-                    + "2. Simulasi Bubble Sort - Ascending \n"
-                    + "3. Simulasi Selection Sort - Ascending\n"
-                    + "4. Simulasi Bubble Sort - Descending\n"
-                    + "5. Simulasi Selection Sort - Descending\n"
-                    + "6. Keluar \n"
-                    + "Masukan Pilihan Anda:");
+            System.out.print ("""
+
+                    Selamat Datang di Program Simulasi\s
+                    Menu:
+                    1. Random Data\s
+                    2. Simulasi Bubble Sort - Ascending\s
+                    3. Simulasi Selection Sort - Ascending
+                    4. Simulasi Bubble Sort - Descending
+                    5. Simulasi Selection Sort - Descending
+                    6. Keluar\s
+                    Masukan Pilihan Anda:""");
             iPilih=in.nextInt();
             switch (iPilih){
                 case 1:
@@ -119,9 +117,9 @@ public class TugasKelompok4 {
             printData();
         } }
     static void printData(){
-        for (int i=0;i< lstData.length ;i++){
+        for (int lstDatum : lstData) {
             //cetak hasil
-            System.out.print(lstData[i]+ "    ");
+            System.out.print(lstDatum + "    ");
         }
         System.out.print("\n");
     }
