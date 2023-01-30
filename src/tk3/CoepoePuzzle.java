@@ -1,7 +1,9 @@
+package tk3;
+
 import java.util.Scanner;
 
 /**
- * CoepoePuzzle
+ * tk3.CoepoePuzzle
  */
 public class CoepoePuzzle {
     static final Scanner input = new Scanner(System.in);

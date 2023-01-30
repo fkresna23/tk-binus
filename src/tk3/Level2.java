@@ -1,48 +1,53 @@
+package tk3;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Level3 {
+public class Level2 {
     static String[] answers = {
-            "honker",
-            "honer",
-            "heron",
-            "krone",
-            "kern",
-            "horn",
-            "kore",
-            "honk",
-            "hone",
-            "hoke",
-            "hoer",
-            "okeh",
-            "hero",
-            "hern",
-            "keno",
-            "eon",
-            "ore",
-            "noh",
-            "nor",
-            "one",
-            "oke",
-            "kor",
-            "roe",
-            "hoe",
-            "rho",
-            "hon",
-            "her",
-            "hen",
-            "ern",
-            "ken"
+            "seance",
+            "seneca",
+            "encase",
+            "canes",
+            "cense",
+            "cease",
+            "scene",
+            "scena",
+            "acnes",
+            "ease",
+            "cees",
+            "sane",
+            "cane",
+            "case",
+            "cans",
+            "acne",
+            "scan",
+            "sene",
+            "anes",
+            "seen",
+            "ace",
+            "sea",
+            "sen",
+            "sec",
+            "see",
+            "sae",
+            "sac",
+            "nee",
+            "ane",
+            "can",
+            "cee",
+            "ens",
+            "nae"
     };
 
-    public int playLevel3() {
+    public int playLevel2() {
         int score = 0;
         int count = 0;
         ArrayList<String> typedWords = new ArrayList<String>();
 
-        System.out.println("\nLevel 3");
+        System.out.println("\nLevel 2");
         System.out.println("--------");
-        System.out.println("     h     k     r     n     e     o     ");
+        System.out.println("     s     e     c     a     e     n     ");
 
         for (int i = 1; i <= 10;) {
             System.out.print(i +  "> Your Answer : ");
