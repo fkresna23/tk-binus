@@ -46,8 +46,8 @@ public class TugasKelompok4 {
         System.out.print ( "Batas Atas:");
         int iMax=in.nextInt();
         for (int i=1;i<=5;i++){
-            lstData[i-1]=(int)(iMin + (int) (Math.random() * (iMax -
-                    iMin + 1))); }
+            lstData[i-1]= iMin + (int) (Math.random() * (iMax -
+                    iMin + 1)); }
         //display result
         printData();
     }
